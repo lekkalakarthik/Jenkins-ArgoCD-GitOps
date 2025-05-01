@@ -7,4 +7,6 @@ jobs:
     steps:
       - name: print something
         run: echo "Hello World"
+      - name: Get the docker version
+        run: docker -version
         
