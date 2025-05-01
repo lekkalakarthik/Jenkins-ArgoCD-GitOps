@@ -1,0 +1,10 @@
+name: Myfirst CI
+on:
+  workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print something
+        run: echo "Hello World"
+        
